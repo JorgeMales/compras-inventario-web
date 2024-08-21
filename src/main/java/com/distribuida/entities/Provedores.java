@@ -20,9 +20,9 @@ public class Provedores {
 	private int idProvedores;
 	@Column(name="Nombre")
 	private String nombre;
-	@Column(name="Dirección")
+	@Column(name="Direccion")
 	private String direccion;
-	@Column(name="Teléfono")
+	@Column(name="Telefono")
 	private String telefono;
 	@Column(name="Email")
 	private String email;
