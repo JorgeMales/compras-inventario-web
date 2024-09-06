@@ -11,20 +11,20 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Entity
-@Table(name="provedores")
+@Table(name="proveedores")
 public class Provedores {
 	// Atributos 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="id_provedores")
+	@Column(name="id_proveedores")
 	private int idProvedores;
-	@Column(name="Nombre")
+	@Column(name="nombre")
 	private String nombre;
-	@Column(name="Direccion")
+	@Column(name="direccion")
 	private String direccion;
-	@Column(name="Telefono")
+	@Column(name="telefono")
 	private String telefono;
-	@Column(name="Email")
+	@Column(name="email")
 	private String email;
 	
 	
